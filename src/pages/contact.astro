@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import siteData from '../data/siteData.json';
+---
+
+<BaseLayout title="Contact Us">
+  <section class="max-w-xl mx-auto py-16 px-4">
+    <h1 class="text-4xl font-bold mb-6 text-center">Get In Touch</h1>
+    <div class="bg-white p-8 border border-slate-200 rounded-xl shadow-sm mb-8 text-sm">
+      <p class="mb-2"><strong>Phone:</strong> {siteData.phone}</p>
+      <p class="mb-2"><strong>Email:</strong> {siteData.email}</p>
+      <p><strong>Office:</strong> {siteData.address}</p>
+    </div>
+  </section>
+</BaseLayout>

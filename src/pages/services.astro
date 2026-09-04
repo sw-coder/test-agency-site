@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Services">
+  <section class="max-w-6xl mx-auto py-16 px-4">
+    <h1 class="text-4xl font-bold mb-8 text-center">Our Services</h1>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="p-6 bg-white border border-slate-200 rounded-xl shadow-sm">
+        <h2 class="text-xl font-bold mb-2">Web Development</h2>
+        <p class="text-slate-600 text-sm">Ultra-fast, 100% score static builds using Astro + Tailwind.</p>
+      </div>
+      <div class="p-6 bg-white border border-slate-200 rounded-xl shadow-sm">
+        <h2 class="text-xl font-bold mb-2">Workflow Automation</h2>
+        <p class="text-slate-600 text-sm">Connecting CMS backends to cloud infrastructure automatically.</p>
+      </div>
+      <div class="p-6 bg-white border border-slate-200 rounded-xl shadow-sm">
+        <h2 class="text-xl font-bold mb-2">Cloud Strategy</h2>
+        <p class="text-slate-600 text-sm">Global CDN distribution on Cloudflare Pages with zero server overhead.</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
